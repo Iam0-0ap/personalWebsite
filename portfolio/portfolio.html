@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Adarsha Pandey</title>
+  <meta name="title" content="Adarsha - I'm an Aspiring Computer Engineer from Nepal">
+  <meta name="description" content="This is a personal portfolio website made by Adarsha Pandey">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="../assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="../assets/images/Blog.svg">
+
+</head>
+
+
+
+<body>
+
+   <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="../index.html">
+       <h3 class="h3">Adarsha</h3>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="../index.html">
+            <h2>Adarsha</h2>
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="../index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="../about/about.html" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="../certifications/certification.html" class="navbar-link">Certifications</a>
+          </li>
+
+          <li>
+            <a href="#contactMe" class="navbar-link">Contact</a>
+          </li>
+
+        
+
+        </ul>
+
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.linkedin.com/in/adarsha-pandey-b35832184/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+  
+          <li>
+            <a href="https://github.com/Iam0-0ap" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+  
+          <li>
+            <a href="https://twitter.com/Iam0_0ap" target="_blank" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+  
+          <li>
+            <a href="mailto:adarshapandey2000@gmail.com" target="_blank" class="social-link">
+              <ion-icon name="mail"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero1" aria-label="home">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="h1"> Portfolio.</h1> 
+            
+          </div>
+          
+       
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <!-- <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">My Projects</h2>
+
+              <p class="section-text">
+                Check out some of my projects with creative ideas.
+              </p>
+            </div>
+          </div>
+
+        
+          
+
+        </div>
+      </section> -->
+
+
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+           <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">My Amazing Works</h2>
+
+              <p class="section-text">
+                Check out some of my projects with creative ideas.
+              </p>
+            </div>
+          </div>
+
+          <ul class="portfolio-list">
+
+            <li>
+              <div class="portfolio-card" data-reveal="bottom">
+                <div class="card-content">
+
+                  <h5 class="h5" style="text-transform: uppercase; color: #3f78e0;">Python</h5>
+                  <h3 class="h3 card-title1"><a href="https://github.com/Iam0-0ap/Malware-and-Malicious-URLs-Detection">Malware and Malicious URLS Detection using Machine Learning. </a> </h3>
+                  <p style="color: #04343a"> A Machine Learning-based application that detects Malicious URL and Malware using trained models. The model is trained on a large dataset of known malicious URLs and malware samples to learn their characteristics and patterns. When a new URL or executable file is inputted into the application, the model analyzes it and predicts whether it's malicious or not. The application is designed to provide an efficient and effective way to protect against cyber threats and ensure online safety.</p>
+                  <br>
+                  <span class="btn-link">
+                    <span style="font-weight: bold;"><a href="https://github.com/Iam0-0ap/Malware-and-Malicious-URLs-Detection">View Project</a>  </span>
+                    <!-- <ion-icon name="arrow-forward"></ion-icon> -->
+                  </span>
+
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="portfolio-card" data-reveal="bottom">
+                <div class="card-content">
+
+                  <h5 class="h5" style="text-transform: uppercase; color: #3f78e0;">Python</h5>
+                  <h3 class="h3 card-title1"> <a href="https://github.com/Iam0-0ap/Churn-Rate-Prediction-UPDATED">Telecom Churn Rate Prediction using Machine Learning</a> </h3>
+                  <p style="color: #04343a">A Machine Learning-based application that predicts the churn rate of telecom customers. The model is trained on a dataset of customer information, including demographics, usage behavior, and other factors that may influence their decision to switch to another provider. Using this information, the model predicts the likelihood of a customer churning and provides insights into the factors that contribute to customer churn. The application is designed to help telecom companies reduce customer churn and increase customer retention by identifying and addressing the root causes of churn. </p>
+                  <br>
+                  <span class="btn-link">
+                    <span style="font-weight: bold;"><a href="https://github.com/Iam0-0ap/Churn-Rate-Prediction-UPDATED">View Project</a>  </span>
+                    <!-- <ion-icon name="arrow-forward"></ion-icon> -->
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <div class="portfolio-card" data-reveal="bottom">
+                <div class="card-content">
+
+                  <h5 class="h5" style="text-transform: uppercase;color: #3f78e0;">HTML/CSS</h5>
+                  <h3 class="h3 card-title1"> <a href="https://github.com/Iam0-0ap/WrestleArticle-website"> Wrestle Article</a> </h3>
+                  <p style="color: #04343a">A static website designed for articles, discussions, and memes related to wrestling. Created during the COVID lockdown and serverd as a fun project to start a front-end journey with. Showcases basic HTML, CSS, and JavaScript skills. The website allows users to read articles and join in discussions about wrestling, as well as browse through a collection of wrestling-related memes.</p>
+                  <br>
+                  <span class="btn-link">
+                    <span style="font-weight: bold;  display: inline-block;"><a href="https://github.com/Iam0-0ap/WrestleArticle-website">View Project</a>  </span>
+                    <!-- <ion-icon name="arrow-forward"></ion-icon> -->
+                    <span style="width: 5ch"></span>
+                    <span class="btn-link">
+                      <span style="font-weight: bold; display: inline-block;"><a href="https://iam0-0ap.github.io/WrestleArticle-website/">open site</a>  </span>
+                      <!-- <ion-icon name="arrow-forward"></ion-icon> -->
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <div class="portfolio-card" data-reveal="bottom">
+                <div class="card-content">
+
+                  <h5 class="h5" style="text-transform: uppercase;color: #3f78e0;">C++</h5>
+                  <h3 class="h3 card-title1"> <a href="https://github.com/Iam0-0ap/Pong-game-from-scratch-CPP"> Classic Pong Game</a> </h3>
+                  <p style="color: #04343a">A simple yet engaging implementation of the iconic Pong game in C++ from scratch. Explore the source code to understand the game mechanics, graphics rendering, and player controls. Created during a period of lockdown, this project showcases the power of coding and creativity during challenging times. To run the game, simply execute the Game2.exe file.</p>
+                  <br>
+                  <span class="btn-link">
+                    <span style="font-weight: bold;"><a href="https://github.com/Iam0-0ap/Pong-game-from-scratch-CPP">View Project</a>  </span>
+                    <!-- <ion-icon name="arrow-forward"></ion-icon> -->
+                </div>
+              </a>
+            </li>
+            
+            <li>
+              <div class="portfolio-card" data-reveal="bottom">
+                <div class="card-content">
+
+                  <h5 class="h5" style="text-transform: uppercase; color: #3f78e0;">streamlit</h5>
+                  <h3 class="h3 card-title1"><a href="https://github.com/Iam0-0ap/Academic-Performance-Monitor"> Academic Performance Monitor</a></h3>
+                  <p style="color: #04343a">A web app built to monitor my academic performance across multiple semesters. It includes interactive bar charts and line charts to show my performance accross Enginering Semesters. The app also includes a feature to upload your own CSV file with your academic data, allowing you to visualiaze your academic performance over multiple semesters. </p>
+                  <br>
+                  <span class="btn-link">
+                    <span style="font-weight: bold;  display: inline-block;"><a href="https://github.com/Iam0-0ap/Academic-Performance-Monitor">View Project</a>  </span>
+                    <!-- <ion-icon name="arrow-forward"></ion-icon> -->
+                    <span style="width: 5ch"></span>
+                    <span class="btn-link">
+                      <span style="font-weight: bold; display: inline-block;"><a href="https://iam0-0ap-academic-performance-monitor-app-ct60or.streamlit.app/">open site</a>  </span>
+                      <!-- <ion-icon name="arrow-forward"></ion-icon> -->
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <div class="portfolio-card" data-reveal="bottom">
+                <div class="card-content">
+
+                  <h5 class="h5" style="text-transform: uppercase;color: #3f78e0;">streamlit</h5>
+                  <h3 class="h3 card-title1"><a href="https://github.com/Iam0-0ap/IOE-Aggregate-Percentage-Calculator">IOE Aggregate Percentage Calculator </a></h3>
+                  <p style="color: #04343a">A convenient and user-friendly application built using Streamlit, designed specifically for students in the Bachelor of Computer Engineering (BCT) program at the Institute of Engineering (IOE). It is a time-saving app that simplifies the process of calculating aggregate percentages for IOE BCT students. By considering the institution's grading system, it eliminates the need for manual calculations and provides instant results.</p>
+                  <br>
+                  <span class="btn-link">
+                    <span style="font-weight: bold;  display: inline-block;"><a href="https://github.com/Iam0-0ap/IOE-Aggregate-Percentage-Calculator">View Project</a>  </span>
+                    <!-- <ion-icon name="arrow-forward"></ion-icon> -->
+                    <span style="width: 5ch"></span>
+                    <span class="btn-link">
+                      <span style="font-weight: bold; display: inline-block;"><a href="https://iam0-0ap-ioe-aggregate-percent-ioe-percentage-calcualtor-npv3m5.streamlit.app/">open site</a>  </span>
+                      <!-- <ion-icon name="arrow-forward"></ion-icon> -->
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <div class="portfolio-card" data-reveal="bottom">
+                <div class="card-content">
+
+                  <h5 class="h5" style="text-transform: uppercase;color: #3f78e0;">python</h5>
+                  <h3 class="h3 card-title1"><a href="https://github.com/Iam0-0ap/Simple-Tkinter-App"> Simple Tkinter App for Encryption and Decryption</a></h3>
+                  <p style="color: #04343a">A simple Encryption and Decryption app built using tkinter library in Python. This application allows you to encrypt and decrypt text messages using a simple encryption algorithm. A great tool to learn about encryption principles and have some fun encrypting and decrypting messages. Whether you want to send secret messages to your friends or simply explore the world of Cryptography, this app is an ideal starting point. </p>
+                  <br>
+                  <span class="btn-link">
+                    <span style="font-weight: bold;  display: inline-block;"><a href="https://github.com/Iam0-0ap/Simple-Tkinter-App">View Project</a>  </span>
+                    <!-- <ion-icon name="arrow-forward"></ion-icon> -->
+                    
+                </div>
+              </a>
+            </li>
+
+            
+
+            
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section id ="contactMe" class="section contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="../assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+
+              <p class="section-text">
+                I bring rapid solutions to make the life of my clients easier. Have any questions? Reach out to me from
+                this contact form and I will get back to you shortly.
+              </p>
+
+            </div>
+
+            <form action="" class="contact-form" data-reveal="right">
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+      
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2023 Adarsha Pandey. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+        <li>
+          <a href="https://www.linkedin.com/in/adarsha-pandey-b35832184/" target="_blank" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/Iam0-0ap" target="_blank" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/Iam0_0ap" target="_blank" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="mailto:adarshapandey2000@gmail.com" target="_blank" class="social-link">
+            <ion-icon name="mail"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="../assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
