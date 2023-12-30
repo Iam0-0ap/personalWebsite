@@ -1,7 +1,7 @@
 /*-----------------------------------*\
   #main.css
 \*-----------------------------------*/
-
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -87,6 +87,10 @@
 
 
 
+
+.text-brand {
+  color: var(--cinnamon-satin);
+}
 
 /*-----------------------------------*\
   #RESET
@@ -180,6 +184,7 @@ body.nav-active { overflow: hidden; }
 .section { padding-block: var(--section-padding); }
 
 .w-100 { width: 100%; }
+.w-101 { width: 70%; }
 
 .h1,
 .h2,
@@ -411,6 +416,9 @@ body.nav-active { overflow: hidden; }
   mask-size: auto;
   -webkit-mask-size: auto;
 }
+
+
+
 
 .hero .shape {
   position: absolute;
