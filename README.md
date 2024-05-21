@@ -23,7 +23,7 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 - Email: [adarshapandey2000@gmail.com](mailto:adarshapandey2000@gmail.com)
 - Portfolio: [adarshapandey](https://www.adarshapandey07.com.np/)
-- LinkedIn: [Adarsha Pandey](https://www.linkedin.com/in/adarsha-pandey-b35832184/)
+- LinkedIn: [Adarsha Pandey](https://www.linkedin.com/in/adarsha-pandey/)
 
 Feel free to reach out to me if you have any questions, feedback, or collaboration opportunities!
 
